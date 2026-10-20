@@ -1,0 +1,225 @@
+{
+  "project": "CloudMargin",
+  "data_type": "synthetic",
+  "analysis_period": "2026-08 to 2026-09",
+  "fpa": {
+    "august_ai_cost": 7403.71,
+    "september_ai_cost": 8968.43,
+    "total_increase": 1564.72,
+    "volume_impact": 580.31,
+    "unit_cost_impact": 984.41,
+    "monthly_ai": [
+      {
+        "month": "2026-01",
+        "usage": 170852,
+        "cost": 4790.05,
+        "revenue": 7688.23,
+        "cost_per_request": 0.0280362536
+      },
+      {
+        "month": "2026-02",
+        "usage": 189675,
+        "cost": 5310.0,
+        "revenue": 8535.29,
+        "cost_per_request": 0.027995255
+      },
+      {
+        "month": "2026-03",
+        "usage": 197196,
+        "cost": 5491.17,
+        "revenue": 8873.75,
+        "cost_per_request": 0.0278462545
+      },
+      {
+        "month": "2026-04",
+        "usage": 215455,
+        "cost": 6025.74,
+        "revenue": 9695.4,
+        "cost_per_request": 0.0279675106
+      },
+      {
+        "month": "2026-05",
+        "usage": 216655,
+        "cost": 6092.75,
+        "revenue": 9749.41,
+        "cost_per_request": 0.0281218989
+      },
+      {
+        "month": "2026-06",
+        "usage": 240100,
+        "cost": 6721.36,
+        "revenue": 10804.4,
+        "cost_per_request": 0.0279940025
+      },
+      {
+        "month": "2026-07",
+        "usage": 249526,
+        "cost": 6998.9,
+        "revenue": 11228.61,
+        "cost_per_request": 0.0280487805
+      },
+      {
+        "month": "2026-08",
+        "usage": 264910,
+        "cost": 7403.71,
+        "revenue": 11920.84,
+        "cost_per_request": 0.0279480201
+      },
+      {
+        "month": "2026-09",
+        "usage": 285674,
+        "cost": 8968.43,
+        "revenue": 12855.24,
+        "cost_per_request": 0.0313939315
+      },
+      {
+        "month": "2026-10",
+        "usage": 290397,
+        "cost": 9092.7,
+        "revenue": 13067.83,
+        "cost_per_request": 0.0313112739
+      },
+      {
+        "month": "2026-11",
+        "usage": 311476,
+        "cost": 9743.41,
+        "revenue": 14016.35,
+        "cost_per_request": 0.0312814149
+      },
+      {
+        "month": "2026-12",
+        "usage": 316279,
+        "cost": 9953.31,
+        "revenue": 14232.47,
+        "cost_per_request": 0.0314700312
+      }
+    ],
+    "top_customers": [
+      {
+        "customer_id": "C002",
+        "2026-08": 201.13,
+        "2026-09": 308.92,
+        "increase": 107.79
+      },
+      {
+        "customer_id": "C041",
+        "2026-08": 211.02,
+        "2026-09": 291.17,
+        "increase": 80.15
+      },
+      {
+        "customer_id": "C014",
+        "2026-08": 230.4,
+        "2026-09": 309.6,
+        "increase": 79.2
+      },
+      {
+        "customer_id": "C035",
+        "2026-08": 181.42,
+        "2026-09": 259.94,
+        "increase": 78.52
+      },
+      {
+        "customer_id": "C017",
+        "2026-08": 212.33,
+        "2026-09": 284.25,
+        "increase": 71.92
+      },
+      {
+        "customer_id": "C012",
+        "2026-08": 58.22,
+        "2026-09": 127.95,
+        "increase": 69.73
+      },
+      {
+        "customer_id": "C020",
+        "2026-08": 211.47,
+        "2026-09": 280.25,
+        "increase": 68.78
+      },
+      {
+        "customer_id": "C026",
+        "2026-08": 216.45,
+        "2026-09": 283.96,
+        "increase": 67.51
+      },
+      {
+        "customer_id": "C003",
+        "2026-08": 64.33,
+        "2026-09": 125.83,
+        "increase": 61.5
+      },
+      {
+        "customer_id": "C047",
+        "2026-08": 229.13,
+        "2026-09": 285.29,
+        "increase": 56.16
+      }
+    ]
+  },
+  "strategic_finance": {
+    "eligible_cost": 2039.86,
+    "cache_effectiveness": 0.6,
+    "monthly_cache_cost": 150,
+    "implementation_cost": 3000,
+    "monthly_net_savings": 1073.91,
+    "first_year_benefit": 9886.98,
+    "payback_months": 2.79,
+    "break_even_effectiveness": 0.1961,
+    "scenarios": [
+      {
+        "effectiveness": 0.2,
+        "monthly_net_savings": 257.97,
+        "first_year_benefit": 95.66,
+        "positive_first_year": true
+      },
+      {
+        "effectiveness": 0.4,
+        "monthly_net_savings": 665.94,
+        "first_year_benefit": 4991.32,
+        "positive_first_year": true
+      },
+      {
+        "effectiveness": 0.6,
+        "monthly_net_savings": 1073.91,
+        "first_year_benefit": 9886.98,
+        "positive_first_year": true
+      },
+      {
+        "effectiveness": 0.8,
+        "monthly_net_savings": 1481.89,
+        "first_year_benefit": 14782.64,
+        "positive_first_year": true
+      }
+    ]
+  },
+  "corporate_development": {
+    "options": [
+      {
+        "option": "Build internally",
+        "upfront_cost": 3000,
+        "effectiveness": 0.6,
+        "monthly_net_savings": 1073.91,
+        "payback_months": 2.79,
+        "three_year_net_benefit": 35660.93
+      },
+      {
+        "option": "Buy third-party solution",
+        "upfront_cost": 5000,
+        "effectiveness": 0.8,
+        "monthly_net_savings": 1531.89,
+        "payback_months": 3.26,
+        "three_year_net_benefit": 50147.91
+      }
+    ],
+    "modeled_winner": "Buy third-party solution"
+  },
+  "limitations": [
+    "All operating data is synthetic.",
+    "Caching eligibility is modeled, not measured.",
+    "Effectiveness and implementation costs are assumptions.",
+    "Savings assume September workload stays constant.",
+    "Three-year benefits are undiscounted.",
+    "Implementation delays and execution risks are excluded."
+  ]
+}
